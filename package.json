@@ -10,7 +10,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "vercel-build": "bash vercel-build.sh",
+    "build": "npx playwright install --with-deps && next build",
     "start": "next start",
     "lint": "next lint"
   },
