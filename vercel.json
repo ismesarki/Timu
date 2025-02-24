@@ -1,12 +1,14 @@
 {
-    "builds": [
-      {
-        "src": "package.json",
-        "use": "@vercel/node"
-      }
-    ],
-    "hooks": {
-      "build": "npx playwright install"
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/node"
     }
+  ],
+  "hooks": {
+    "build": "npx playwright install"
   }
-  
+  "env": {
+    "NODE_VERSION": "16.x"
+  }
+}
