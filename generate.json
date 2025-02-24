@@ -1,0 +1,1 @@
+Invoke-WebRequest -Uri "http://localhost:3000/api/generate" -Method Post -Headers @{ "Content-Type"="application/json" } -Body '{"prompt":"Arkadaşım {{1.`0`}} için enerjik ve popüler bir türkçe doğum günü şarkısı","make_instrumental":false,"wait_audio":true}' -UseBasicParsing
