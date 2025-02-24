@@ -9,7 +9,7 @@
   "version": "1.1.0",
   "private": true,
   "scripts": {
-    "postinstall": "npx playwright install-deps",
+    "postinstall": "npx playwright install-deps",npm --depth 20 update --save caniuse-lite browserslist
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
